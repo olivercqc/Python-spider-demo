@@ -6,7 +6,8 @@ This repository contains some Python Spider Demos. From easy to hard.
 
 ## Table of Contents
 
-* [Maoyan top100 movie board](https://github.com/olivercqc/Python-spider-demo/blob/master/Maoyan/README.md)
+* [Maoyan top100 movie board](https://github.com/olivercqc/Python-spider-demo/blob/master/Maoyan)
 
+* [Zimuku](https://github.com/olivercqc/Python-spider-demo/tree/master/zimuku)
 
 <br/>
