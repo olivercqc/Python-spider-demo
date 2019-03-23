@@ -1,1 +1,34 @@
-## This demo illustrate how to scrape [Maoyan_top100_movie_borad](https://maoyan.com/board/) with Requests and RegEx
+## Maoyan top100 movie board spider demo
+
+This demo illustrates how to scrape [Maoyan_top100_movie_borad](https://maoyan.com/board/) with Requests and RegEx
+
+---------
+## Most frequently used RegEx grammer
+
+|pattern|RegEx|
+|---------------|-------------------------|
+|网址url|[a-zA-z]+://[^\s]*|
+|日期年月日|([0-9]{3}[1-9]|[0-9]{2}[1-9][0-9]{1}|[0-9]{1}[1-9][0-9]{2}|[1-9][0-9]{3})-(((0[13578]|1[02])-(0[1-9]|[12][0-9]|3[01]))|((0[469]|11)-(0[1-9]|[12][0-9]|30))|(02-(0[1-9]|[1][0-9]|2[0-8])))|
+|字母、数字下划线|\w|
+|任意空白字符|\s|
+|任意数字|\d|
+|字符串开头|\A|
+|不换行字符串结尾|\Z|
+|换行字符串结尾|\z|
+|一组字符|[...]|
+|不在[]中的字符|[^...]|
+|任意非换行字符|.|
+|精确匹配n个前面的表达式|{n}|
+|匹配括号内的表达式|()|
+
+--------
+## Most frequently used XPath grammer
+
+|表达式|描述|
+|----------|---------------|
+|nodename|选取此节点的所有子节点|
+|/|从根节点选取|
+|//|从匹配选择的当前节点选择文档中的节点，不考虑它们的位置|
+|.|选取当前节点|
+|..|选取当前节点的父节点|
+|@|选取属性|
