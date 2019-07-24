@@ -56,9 +56,9 @@ def process_data(mid, page_size, page_number):
     return data_dict
 
 if __name__ == "__main__":
-    mid = str(82366241)
+    mid = str(33270562)
     page_size = 100
-    for page_num in range(5):
+    for page_num in range(1):
         data_dict = process_data(mid, page_size, page_num)
         df = pd.DataFrame.from_dict(data_dict)
         df.to_csv("movie_data.csv", index=False)
